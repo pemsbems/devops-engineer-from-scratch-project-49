@@ -1,4 +1,4 @@
-import prompt
+import promp
 
 
 def welcome_user():
