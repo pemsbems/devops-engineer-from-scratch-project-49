@@ -3,7 +3,7 @@ import random
 from brain_games.main_engine import game_engine
 
 
-def get_task():
+def task():
     num = random.randint(1, 100)
     question = str(num)
 
@@ -17,4 +17,4 @@ def get_task():
 
 def run_game():
     rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-    game_engine(get_task, rules)
+    game_engine(task, rules)

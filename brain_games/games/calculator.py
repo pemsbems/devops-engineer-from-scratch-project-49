@@ -3,7 +3,7 @@ import random
 from brain_games.main_engine import game_engine
 
 
-def get_task():
+def task():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
@@ -23,4 +23,4 @@ def get_task():
 
 def run_game():
     rules = "What is the result of the expression?"
-    game_engine(get_task, rules)
+    game_engine(task, rules)
