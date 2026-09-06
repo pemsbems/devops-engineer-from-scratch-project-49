@@ -1,7 +1,10 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Five brain games"
+authors = [
+    {name = "Egor Savin", mail = "egor2017s@mail.ru"}
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
