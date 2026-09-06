@@ -8,3 +8,6 @@ https://asciinema.org/a/B5xizdCN9n6ThQJ8
 
 Asciinema brain-progression:
 https://asciinema.org/a/zOFqmAc5LfO0LarT
+
+Asciinema brain-prime:
+https://asciinema.org/a/XR1WECULcKNOGPGR
