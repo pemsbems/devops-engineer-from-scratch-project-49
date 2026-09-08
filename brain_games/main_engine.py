@@ -4,7 +4,6 @@ from brain_games.cli import welcome_user
 
 
 def game_engine(get_task, rules):
-    print("Welcome to the Brain Games!")
     name = welcome_user()
     print(f"Hello, {name}!")
     print(rules)
