@@ -23,8 +23,3 @@ def task():
     
     question = " ".join(map(str, progression))
     return question, str(hidden_number)
-
-
-def run_game():
-    rules = "What number is missing in the progression?"
-    game_engine(task, rules)
