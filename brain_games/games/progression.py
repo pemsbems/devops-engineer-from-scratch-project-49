@@ -1,13 +1,12 @@
 import random
 
-from brain_games.main_engine import game_engine
-
+RULES = "What number is missing in the progression?"
 
 def generate(start, step, length):
     progression = []
     for i in range(length):
-        currentElement = start + i * step
-        progression.append(currentElement)
+        current_element = start + i * step
+        progression.append(current_element)
     return progression
 
 
@@ -17,13 +16,13 @@ def task():
     step = random.randint(1, 10)    
     
     progression = generate(start, step, length)
-    unknow_numb = random.randint(0, length - 1)
-    unknow = progression[unknow_numb]
+    hidden_index = random.randint(0, length - 1)
+    hidden_number = progression[hidden_index]
     
-    progression[unknow_numb] = ".."
+    progression[hidden_index] = ".."
     
     question = " ".join(map(str, progression))
-    return question, str(unknow)
+    return question, str(hidden_number)
 
 
 def run_game():

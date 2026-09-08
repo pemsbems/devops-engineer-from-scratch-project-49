@@ -10,7 +10,8 @@ def game_engine(get_task, rules):
     print(rules)
 
     goal = 0
-    while goal < 3:
+    winning = 3
+    while goal < winning:
         result = get_task()
         question = result[0]
         true = result[1]

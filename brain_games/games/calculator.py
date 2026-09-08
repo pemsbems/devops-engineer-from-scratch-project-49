@@ -1,7 +1,6 @@
 import random
 
-from brain_games.main_engine import game_engine
-
+RULES = "What is the result of the expression?"
 
 def task():
     num1 = random.randint(1, 100)
@@ -20,7 +19,3 @@ def task():
 
     return [question, correct_answer]
 
-
-def run_game():
-    rules = "What is the result of the expression?"
-    game_engine(task, rules)

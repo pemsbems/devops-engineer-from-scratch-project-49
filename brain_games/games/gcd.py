@@ -1,7 +1,6 @@
 import random
 
-from brain_games.main_engine import game_engine
-
+RULES = "Find the greatest common divisor of given numbers."
 
 def task():
     a = random.randint(1, 100)
@@ -16,6 +15,4 @@ def task():
     return question, correct_answer
 
 
-def run_game():
-    rules = "Find the greatest common divisor of given numbers."
-    game_engine(task, rules)
+

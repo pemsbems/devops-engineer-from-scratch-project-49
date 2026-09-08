@@ -1,7 +1,6 @@
 import random
 
-from brain_games.main_engine import game_engine
-
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def task():
     num = random.randint(1, 100)
@@ -17,6 +16,3 @@ def task():
     return str(num), answer
 
 
-def run_game():
-    rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    game_engine(task, rules)
