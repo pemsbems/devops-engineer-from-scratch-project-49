@@ -1,5 +1,5 @@
 from brain_games.main_engine import game_engine
-from brain_games.games.even import task, RULES
+from brain_games.games.calculator import task, RULES
 
 
 def main():
